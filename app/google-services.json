@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "433339377663",
+    "firebase_url": "https://ladmu3xcevento.firebaseio.com",
+    "project_id": "ladmu3xcevento",
+    "storage_bucket": "ladmu3xcevento.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433339377663:android:c0b5d76c232b142a70e9ca",
+        "android_client_info": {
+          "package_name": "mx.tecnm.tepic.ladm_u3_ejercicio5_practica2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433339377663-qmc3f9v1shr8casbbbu67muua17ed5m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGArYYtGAQBYBSUz7py9ObAGt0Vx-GuwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433339377663-qmc3f9v1shr8casbbbu67muua17ed5m2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
