@@ -38,8 +38,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         button3.setOnClickListener {
+            var ventana= Intent(this,MainActivity3::class.java)
+            mensaje("CAMBIANDO A CONSULTAS")
+            startActivity(ventana)
             finish()
         }
+
         cargarCitas()
     }
 

@@ -6,55 +6,68 @@
     android:orientation="vertical"
     android:padding="20dp"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity3">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ACTUALIZANDO CITA:"
+        android:text="CONSULTAS Y ELIMINACIONES ADICIONALES"
         android:textSize="20dp"
-        android:id="@+id/textView"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
         />
     <EditText
-        android:id="@+id/editLugar"
+        android:id="@+id/Lugar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:layout_marginBottom="10dp"
-        android:hint="Lugar" />
+        android:hint="Lugar (Buscar y Eliminar)" />
 
     <EditText
-        android:id="@+id/editHora"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="time"
-        android:hint="Hora (00:00)"/>
-
-    <EditText
-        android:id="@+id/editFecha"
+        android:id="@+id/Fecha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="date"
-        android:hint="Fecha (dd/MM/AAAA)"/>
+        android:hint="Fecha (dd/MM/AAAA) (Buscar y Eliminar)"/>
 
     <EditText
-        android:id="@+id/editDescripcion"
+        android:id="@+id/Descripcion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:layout_marginBottom="10dp"
-        android:hint="Descripción" />
+        android:hint="Descripción (Buscar)" />
 
-    <Button
-        android:id="@+id/button4"
+    <LinearLayout
         android:layout_width="match_parent"
+        android:orientation="horizontal"
         android:layout_height="wrap_content"
-        android:text="ACTUALIZAR" />
+        android:layout_marginBottom="10dp">
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUSCAR"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ELIMINAR"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listacitas"
+        android:layout_width="match_parent"
+        android:layout_height="245dp" />
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="VOLVER" />
+
 </LinearLayout>
